@@ -10,8 +10,14 @@
   width: 100%;
 }
 .product__title {
-  font-size: 28px;
-  margin-bottom: 16px;
+    font-size: 28px;
+}
+.product__price {
+    margin-bottom: 12px;
+    margin-top: 4px;
+    font-size: 20px;
+    color: rgb(0, 255, 255);
+    letter-spacing: 1px;
 }
 .product__button {
   margin-bottom: 130px;
