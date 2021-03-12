@@ -1,14 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/Home";
+import Basket from "./components/Basket";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h2>Basket Using Redux Toolkit </h2>
-      
+    <div>
+      <Router>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/basket" exact>
+          <Basket />
+        </Route>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

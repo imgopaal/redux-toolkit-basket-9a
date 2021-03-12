@@ -1,0 +1,28 @@
+.Basket__header {
+  background-color: rgb(53, 54, 85);
+  display: flex;
+  padding: 23px 0px 23px 100px;
+}
+.back {
+  position: absolute;
+  left: 30px;
+  top: 23px;
+  padding: 10px;
+  padding-left: 15px;
+  color: white;
+}
+.back:hover {
+  background-color: rgb(97, 97, 124);
+  border-radius: 50px;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+.back{
+    position: absolute;
+    left: 20px;
+    top: 14px;
+    padding: 10px;
+}
+}

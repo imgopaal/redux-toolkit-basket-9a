@@ -1,0 +1,25 @@
+.product {
+  width: 18%;
+  background-color: rgb(45, 45, 68);
+  height: 100%;
+  padding: 10px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+}
+.product__image {
+  width: 100%;
+}
+.product__title {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+.product__button {
+  margin-bottom: 130px;
+}
+
+@media screen and (max-width: 768px) {
+.product{
+    width: 80%;
+    margin-bottom: 30px;
+}
+}
