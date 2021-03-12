@@ -6,7 +6,7 @@
 .back {
   position: absolute;
   left: 30px;
-  top: 23px;
+  top: 25px;
   padding: 10px;
   padding-left: 15px;
   color: white;
@@ -22,7 +22,7 @@
 .back{
     position: absolute;
     left: 20px;
-    top: 14px;
+    top: 16.5px;
     padding: 10px;
 }
 }
